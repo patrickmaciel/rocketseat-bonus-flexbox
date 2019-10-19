@@ -171,3 +171,98 @@ div.bar .content .actions button {
   border-radius: 16px;
   margin-right: 20px;
 }
+
+div.wrapper-content {
+  display: flex;
+}
+
+div.wrapper-content aside.profile {
+  width: 260px;
+}
+div.wrapper-content aside.profile img.avatar {
+  border-radius: 50%;
+  width: 200px;
+  border: 5px solid #fff;
+  margin-top: -130px;
+}
+div.wrapper-content aside.profile h1 {
+  font-size: 21px;
+  color: #1f2226;
+  margin-top: 10px;
+}
+div.wrapper-content aside.profile span {
+  font-size: 14px;
+  color: #1f2226;
+}
+div.wrapper-content aside.profile p {
+  font-size: 14px;
+  color: #1f2226;
+  margin-top: 15px;
+}
+div.wrapper-content aside.profile ul {
+  list-style: none;
+  margin-top: 20px;
+}
+div.wrapper-content aside.profile ul.list li {
+  font-size: 14px;
+  color: #1f2226;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+div.wrapper-content aside.profile ul.list li:first-child {
+  margin-top: 0;
+}
+div.wrapper-content aside.profile ul.list li img {
+  margin-right: 10px;
+}
+
+div.wrapper-content aside.profile .widget {
+  margin-top: 20px;
+}
+div.wrapper-content aside.profile .widget strong {
+  font-weight: normal;
+  color: #3bb9e3;
+  font-style: 14px;
+  display: flex;
+  align-items: center;
+}
+div.wrapper-content aside.profile .widget strong img {
+  margin-right: 5px;
+}
+div.wrapper-content aside.profile .followers ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+div.wrapper-content aside.profile .followers ul li {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background: #d0d5d9;
+  margin: 0 5px 10px 0;
+  flex: 1 0 auto;
+  /* flex-shrink: 0;
+  flex-grow: 1; */
+}
+
+div.wrapper-content aside.profile .images ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+div.wrapper-content aside.profile .images ul li {
+  height: 80px;
+  width: 80px;
+  border-radius: 8px;
+  background: #d0d5d9;
+  margin: 0 5px 5px 0;
+  flex: 1 0 auto;
+  /* flex-shrink: 0;
+  flex-grow: 1; */
+}
